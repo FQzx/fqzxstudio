@@ -232,6 +232,40 @@ font a:hover {
     }
 }
 
+@media screen and (min-width: 600px) and (max-width: 900px) {
+    #wrapper {
+        width: 90%; /* Lebar responsif */
+        margin-left: 5%;
+        margin-top: 100px;
+        height: auto; /* biarkan tinggi menyesuaikan */
+        padding: 15px;
+        box-sizing: border-box;
+    }
+
+    .me {
+        flex-wrap: nowrap; /* Jangan wrap agar tetap satu baris */
+        justify-content: space-between; /* Beri jarak antar elemen */
+        padding: 20px 10px;
+    }
+
+    .myphoto {
+        height: 300px; /* Sesuaikan tinggi foto */
+        margin: 0; /* Hapus margin kanan dan atas */
+        float: none;
+        border-radius: 20px; /* Bulatkan sudut lebih natural */
+        box-shadow: 0 0 15px rgba(0,0,0,0.3);
+        flex-shrink: 0; /* Jangan mengecil */
+        width: auto;
+    }
+
+    .aboutmetext {
+        flex: 1; /* Ambil sisa ruang */
+        margin-left: 20px; /* Jarak dari foto */
+        text-align: left;
+        padding-top: 10px;
+    }
+}
+
 /* Untuk layar dengan lebar maksimum 480px (smartphone) */
 @media screen and (max-width: 480px) {
     #header li {
