@@ -134,17 +134,26 @@ font a:hover{
   flex-wrap: wrap;
 }
 
-.aboutmetext { 
-    text-align: center;   
+@media (max-width: 768px) {
+  .me{
+    flex-direction: column; 
+    text-align: center; 
+  }
+
+  .movephoto{
+    margin: 0 auto;
+  }
 }
+
 
 .myphoto{
   height: 400px;
-  margin-right: 5%;
+  /*margin-right: 5%;
   float: right;
-  margin-top: -30%;
+  margin-top: -30%;*/
   background-color: white;
   border-radius: 20%;
   box-shadow: 0 0px 20px rgba(0,0,0,0.4);
 }
+
 
