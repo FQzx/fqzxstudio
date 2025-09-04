@@ -1,43 +1,62 @@
 body {
-    margin: 0px;
+    margin: 0;
     background: linear-gradient(to right, #141e30, #243b55);
+    font-family: Arial, sans-serif;
 }
 
+/* === HEADER === */
 #header {
-    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 70px;
     width: 97%;
-    margin-left: 20px;
-    margin-top: 100px;
+    margin: 20px auto 0 auto;
     border-radius: 20px;
     box-shadow: 0 8px 10px rgba(0,0,0,0.4);
     backdrop-filter: blur(4px);
+    padding: 0 20px;
 }
 
-#wrap {
-    color: rgb(0, 255, 0);
+/* Brand (Logo + Text) */
+.brand {
+    display: flex;
+    align-items: center;
+    gap: 12px;
 }
 
-#FQzx {
-    padding-top: 43px;
-    margin-top: -80px;
-    margin-left: 39px;
-    color: rgb(255, 255, 255);
+.logof {
+    height: 45px;
+    width: auto;
 }
 
-#header li {
-    width: 50px; 
-    float: left;
-    color: black;
-    margin-right: 5px;
-    padding-right: 50px;
+.FQzx {
+    color: white;
+    margin: 0;
+    font-size: 28px;
+}
+
+/* Menu kanan */
+#header ul {
+    display: flex;
+    gap: 40px;
+    margin: 0;
+    padding: 0;
     list-style: none;
 }
 
-#header ul {
-    float: right;
-    justify-content: space-between;
+#header li a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    transition: 0.3s;
 }
 
+#header li a:hover {
+    color: black;
+}
+
+/* === OPENING === */
 #opening {
     padding-top: 110px;
     color: white;
@@ -54,42 +73,19 @@ body {
     margin: auto;
 }
 
-#logof {
-    height: 50px;
-    margin-top: -32px;
-    padding-left: 12px;
-}
-
-li a:hover {
-    color: rgb(0, 0, 0);
-}
-
-a {
-    text-decoration: none;
-    color: white;
-}
-
-font a:hover {
-    color: rgb(0, 0, 0);
-}
-
 #halo {
+    margin: auto;
+    margin-bottom: 30px;
+    font-size: 30px;
     text-align: center;
-}
+    margin-top: 50px;
+    font-family: halofont, Arial, sans-serif;
+}    
 
 @font-face {
     font-family: halofont;
     src: url(font/THEBOLDFONT-FREEVERSION.otf);
 }
-
-#halo {
-    margin: auto;
-    font-family: halofont;
-    margin-bottom: 30px;
-    font-size: 30px;
-    text-align: center;
-    margin-top: 50px;
-}    
 
 #learnmore {
   display: inline-block;   
@@ -103,14 +99,15 @@ font a:hover {
   margin-top: 60px;
 }
 
+/* === WRAPPER ABOUT === */
 #wrapper {
     margin-top: 200px;
     border-radius: 20px;
-    margin-left: 80px;
+    margin: 0 auto;
+    margin-top: 100px;
     box-shadow: 0 0px 10px rgba(0,0,0,0.4);
     backdrop-filter: blur(4px);
-    width: 600px;
-    height: auto; /* fleksibel */
+    max-width: 1000px;
     padding: 25px;
     color: white;
     box-sizing: border-box;
@@ -121,149 +118,99 @@ font a:hover {
     width: 100%;
 }
 
-/* === Wrapper teks & foto === */
+/* Flexbox teks + foto */
 .me {
   display: flex;
-  flex-direction: row; /* default PC: horizontal */
+  flex-direction: row; 
   align-items: center;
   justify-content: space-between;
   gap: 30px;
   flex-wrap: nowrap;
 }
 
-/* === Teks === */
 .aboutmetext { 
   flex: 1;   
   text-align: left;   
 }
 
-/* === Foto === */
 .myphoto {
   flex-shrink: 0; 
   height: 300px;
   width: auto;
-  background-color: white;
   border-radius: 20px;
   box-shadow: 0 0px 20px rgba(0,0,0,0.4);
 }
 
-/* --- Media Queries --- */
+/* === MEDIA QUERIES === */
 
 /* Tablet & Mobile */
 @media screen and (max-width: 992px) {
     #header {
-        width: 90%; 
-        margin-left: 5%; 
-        margin-top: 20px; 
-        height: auto; 
-        padding: 10px 0; 
+        flex-direction: column;
+        height: auto;
+        padding: 15px;
+        text-align: center;
+    }
+
+    .brand {
+        justify-content: center;
+        margin-bottom: 10px;
     }
 
     #header ul {
-        float: none; 
-        text-align: center; 
-        padding: 0;
-        margin: 0;
-    }
-
-    #header li {
-        float: none; 
-        display: inline-block; 
-        margin: 0 10px; 
-        padding: 0;
-        width: auto; 
-    }
-
-    #FQzx {
-        margin-top: 10px; 
-        margin-left: 0;
-        text-align: center; 
-        padding-top: 0;
-    }
-
-    #logof {
-        display: block; 
-        margin: 20px auto 0 auto; 
-        padding-left: 0;
-        height: 40px; 
-    }
-
-    #opening {
-        padding-top: 50px; 
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 20px;
     }
 
     #who {
         width: 90%; 
-        padding: 15px; 
-        box-sizing: border-box; 
     }
 
     #halo {
         font-size: 24px; 
-        margin-top: 30px;
-    }
-
-    #learnmore {
-        margin-top: 30px; 
-        padding: 8px 15px; 
-        height: auto; 
     }
 
     #wrapper {
-        margin-top: 50px; 
-        margin-left: 5%; 
-        width: 90%; 
-        height: auto; 
-        padding: 15px; 
-        box-sizing: border-box; 
+        width: 90%;
+        margin-top: 50px;
     }
 
-    /* teks & foto jadi stack */
     .me {
-        flex-direction: column; 
-        align-items: center;
+        flex-direction: column;
         text-align: center;
     }
 
     .aboutmetext {
         text-align: center;
-        margin-bottom: 20px;
     }
 
     .myphoto {
-        height: 220px; 
+        height: 220px;
     }
 }
 
-/* Smartphone kecil (max 480px) */
+/* Smartphone kecil */
 @media screen and (max-width: 480px) {
-    #header li {
-        margin: 0 5px; 
-    }
-
-    #FQzx h1 {
-        font-size: 20px; 
+    .FQzx {
+        font-size: 20px;
     }
 
     #halo {
-        font-size: 20px; 
+        font-size: 20px;
     }
 
     #who {
-        font-size: 14px; 
-        padding: 10px;
-    }
-
-    #wrapper {
+        font-size: 14px;
         padding: 10px;
     }
 
     .aboutmetext {
-        font-size: 14px; 
+        font-size: 14px;
         line-height: 1.5;
     }
 
     .myphoto {
-        height: 180px; 
+        height: 180px;
     }
 }
