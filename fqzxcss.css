@@ -1,10 +1,9 @@
-body{
+body {
     margin: 0px;
     background: linear-gradient(to right, #141e30, #243b55);
 }
 
-#header{
-    /*background-color: rgba(255, 255, 255, 0.5);       warna baground header*/
+#header {
     height: 50px;
     width: 97%;
     margin-left: 20px;
@@ -14,19 +13,19 @@ body{
     backdrop-filter: blur(4px);
 }
 
-#wrap{
-    color: rgb(0, 255, 0)
+#wrap {
+    color: rgb(0, 255, 0);
 }
 
-#FQzx{
+#FQzx {
     padding-top: 43px;
     margin-top: -80px;
     margin-left: 39px;
     color: rgb(255, 255, 255);
 }
 
-#header li{
-    width: 50pxpx;
+#header li {
+    width: 50px; 
     float: left;
     color: black;
     margin-right: 5px;
@@ -34,51 +33,47 @@ body{
     list-style: none;
 }
 
-#header ul{
+#header ul {
     float: right;
     justify-content: space-between;
 }
 
-#opening{
+#opening {
     padding-top: 110px;
     color: white;
     text-align: center;
 }
 
-#who{   
+#who {   
     width: 700px;
     border-radius: 20px;  
-    padding-bottom: 20px;
-    padding-right: 20px;
-    padding-top: 20px;
-    padding-left: 20px;
+    padding: 20px; 
     box-shadow: 0 0px 10px rgba(0,0,0,0.4);
     backdrop-filter: blur(4px);
     text-align: center;
     margin: auto;
-
 }
 
-#logof{
+#logof {
     height: 50px;
     margin-top: -32px;
     padding-left: 12px;
 }
 
-li a:hover{
+li a:hover {
     color: rgb(0, 0, 0);
 }
 
-a{
+a {
     text-decoration: none;
     color: white;
 }
 
-font a:hover{
+font a:hover {
     color: rgb(0, 0, 0);
 }
 
-#halo{
+#halo {
     text-align: center;
 }
 
@@ -87,7 +82,7 @@ font a:hover{
     src: url(font/THEBOLDFONT-FREEVERSION.otf);
 }
 
-#halo{
+#halo {
     margin: auto;
     font-family: halofont;
     margin-bottom: 30px;
@@ -108,22 +103,19 @@ font a:hover{
   margin-top: 60px;
 }
 
-#wrapper{
+#wrapper {
     margin-top: 200px;
     border-radius: 20px;
     margin-left: 80px;
-    /*background-color: rgb(255, 0, 0);*/
     box-shadow: 0 0px 10px rgba(0,0,0,0.4);
     backdrop-filter: blur(4px);
-    width:600px;
-    height: 320px;
-    padding-left: 25px;
-    padding-top: 1px;
-    padding-right: 25px;
+    width: 600px;
+    height: 320px; /* Pertimbangkan untuk menghapus fixed height atau menggunakan min-height */
+    padding: 1px 25px 25px 25px; /* Top, Right, Bottom, Left */
     color: white;
 }
 
-.this{
+.this {
     text-align: center;
     width: 100%;
 }
@@ -138,7 +130,7 @@ font a:hover{
     text-align: center;   
 }
 
-.myphoto{
+.myphoto {
   height: 400px;
   margin-right: 5%;
   float: right;
@@ -148,6 +140,126 @@ font a:hover{
   box-shadow: 0 0px 20px rgba(0,0,0,0.4);
 }
 
+/* --- Media Queries for Responsiveness --- */
 
+/* Untuk layar dengan lebar maksimum 768px (tablet dan mobile) */
+@media screen and (max-width: 768px) {
+    #header {
+        width: 90%; /* Sesuaikan lebar header */
+        margin-left: 5%; /* Pusatkan header */
+        margin-top: 20px; /* Kurangi margin atas */
+        height: auto; /* Biarkan tinggi menyesuaikan konten */
+        padding: 10px 0; /* Tambahkan padding vertikal */
+    }
 
+    #header ul {
+        float: none; /* Hapus float */
+        text-align: center; /* Pusatkan item menu */
+        padding: 0;
+        margin: 0;
+    }
 
+    #header li {
+        float: none; /* Hapus float */
+        display: inline-block; /* Tampilkan sebagai inline-block untuk menu horizontal */
+        margin: 0 10px; /* Beri jarak antar menu */
+        padding: 0;
+        width: auto; /* Hapus lebar tetap */
+    }
+
+    #FQzx {
+        margin-top: 10px; /* Sesuaikan posisi FQzx STUDIO */
+        margin-left: 0;
+        text-align: center; /* Pusatkan teks */
+        padding-top: 0;
+    }
+
+    #logof {
+        display: block; /* Tampilkan logo di baris baru */
+        margin: 20px auto 0 auto; /* Pusatkan logo */
+        padding-left: 0;
+        height: 40px; /* Sesuaikan ukuran logo */
+    }
+
+    #opening {
+        padding-top: 50px; /* Kurangi padding atas */
+    }
+
+    #who {
+        width: 90%; /* Lebar responsif */
+        padding: 15px; /* Kurangi padding */
+        box-sizing: border-box; /* Pastikan padding tidak menambah lebar total */
+    }
+
+    #halo {
+        font-size: 24px; /* Kurangi ukuran font */
+        margin-top: 30px;
+    }
+
+    #learnmore {
+        margin-top: 30px; /* Kurangi margin atas */
+        padding: 8px 15px; /* Sesuaikan padding */
+        height: auto; /* Biarkan tinggi menyesuaikan konten */
+    }
+
+    #wrapper {
+        margin-top: 50px; /* Kurangi margin atas */
+        margin-left: 5%; /* Pusatkan wrapper */
+        width: 90%; /* Lebar responsif */
+        height: auto; /* Biarkan tinggi menyesuaikan konten */
+        padding: 15px; /* Kurangi padding */
+        box-sizing: border-box; /* Pastikan padding tidak menambah lebar total */
+    }
+
+    .me {
+        flex-direction: column; /* Tumpuk elemen secara vertikal */
+        padding: 0; /* Hapus padding */
+    }
+
+    .aboutmetext {
+        text-align: left; /* Sesuaikan perataan teks */
+        margin-top: 15px; /* Beri jarak dari judul */
+    }
+
+    .myphoto {
+        float: none; /* Hapus float */
+        margin: 30px auto 0 auto; /* Pusatkan foto dan beri margin atas */
+        height: 250px; /* Kurangi ukuran foto */
+        width: auto; /* Biarkan lebar menyesuaikan tinggi */
+        display: block; /* Pastikan foto menjadi blok untuk margin auto */
+        margin-right: auto; /* Hapus margin-right tetap */
+        margin-top: 30px; /* Sesuaikan margin-top */
+    }
+}
+
+/* Untuk layar dengan lebar maksimum 480px (smartphone) */
+@media screen and (max-width: 480px) {
+    #header li {
+        margin: 0 5px; /* Kurangi jarak antar menu */
+    }
+
+    #FQzx h1 {
+        font-size: 20px; /* Kurangi ukuran font FQzx STUDIO */
+    }
+
+    #halo {
+        font-size: 20px; /* Lebih kecil lagi untuk judul */
+    }
+
+    #who {
+        font-size: 14px; /* Kurangi ukuran font teks */
+        padding: 10px;
+    }
+
+    #wrapper {
+        padding: 10px;
+    }
+
+    .aboutmetext {
+        font-size: 14px; /* Kurangi ukuran font teks */
+    }
+
+    .myphoto {
+        height: 200px; /* Lebih kecil lagi untuk foto */
+    }
+}
