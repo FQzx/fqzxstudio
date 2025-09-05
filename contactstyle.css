@@ -2,6 +2,11 @@ body{
     background: linear-gradient(to right, #141e30, #243b55);
 }
 
+.main{
+    display: flex;
+    flex-direction: column
+}
+
 #wrapper{
     text-align: center;
     border-radius: 20px;
@@ -15,8 +20,18 @@ body{
     padding-top: 10px;
 }
 
-#contact{
+#logo {
+    height: 50px;
+    background-color: white;
+    width: fit-content;
+    margin: auto;
+    border-radius: 50px;
 
+}
+
+#contact{
+    padding-top: 25px;
+    padding-bottom: 1px;
     margin: auto;
     text-align: center;
     color: white;
@@ -33,4 +48,57 @@ a {
 
 font a:hover{
     color: white;
+}
+
+@media screen and (max-width: 992px) {
+    .main {
+        flex-direction: column;
+        height: auto;
+        text-align: center;
+    }
+
+    #contact {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    #wrapper {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+}
+
+@media screen and (max-width: 480px) {
+    .main {
+        flex-direction: column;
+        height: auto;
+        text-align: center;
+    }
+
+    #contact {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    #title {
+        font-size: 20px;
+        padding-top: 1px;
+        padding-bottom: 1px;
+    }
+
+    #logo {
+        height: 40px;
+    }
+
+    #wrapper {
+        padding-left: 10px;
+        padding-right: 10px;
+        font-size: 10px;
+    }
+
+    #usnemail {
+        font-size: 10px;
+    }
+
 }

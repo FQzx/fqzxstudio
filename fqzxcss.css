@@ -28,6 +28,8 @@ body {
 .logof {
     height: 45px;
     width: auto;
+    background-color: white;
+    border-radius: 25px;
 }
 
 .FQzx {
@@ -97,6 +99,22 @@ body {
   height: 18px;
   margin: auto;
   margin-top: 60px;
+}
+
+#mycontact {
+  display: inline-block;   
+  padding: 5px 12px;    
+  background: rgba(255, 255, 255, 0.2); 
+  border-radius: 12px;     
+  color: white;           
+  cursor: pointer;            
+  height: 18px;
+  margin: auto;
+  margin-top: 60px;
+  display: block; 
+  margin: auto;
+  width: fit-content;   
+  margin: 60px auto 0 auto;
 }
 
 /* === WRAPPER ABOUT === */
@@ -186,8 +204,9 @@ body {
     }
 
     .myphoto {
-        height: 220px;
+        height: 320px;
     }
+
 }
 
 /* Smartphone kecil */
