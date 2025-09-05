@@ -182,7 +182,8 @@ body {
     }
 
     #who {
-        width: 90%; 
+        width: 60%; 
+        font-size: 15px;
     }
 
     #halo {
@@ -192,11 +193,13 @@ body {
     #wrapper {
         width: 90%;
         margin-top: 50px;
+        width: 80%;
     }
 
     .me {
         flex-direction: column;
         text-align: center;
+        font-size: 15px;
     }
 
     .aboutmetext {
