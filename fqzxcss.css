@@ -101,6 +101,10 @@ body {
   margin-top: 60px;
 }
 
+#learnmore a:hover {
+    color: black;
+}
+
 #mycontact {
   display: inline-block;   
   padding: 5px 12px;    
@@ -115,6 +119,15 @@ body {
   margin: auto;
   width: fit-content;   
   margin: 60px auto 0 auto;
+  margin-bottom: 20%;
+}
+
+#mycontact a:hover {
+    color: black;
+}
+
+.brand a:hover {
+    color: black;
 }
 
 /* === WRAPPER ABOUT === */

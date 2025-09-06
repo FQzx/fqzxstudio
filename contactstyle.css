@@ -46,31 +46,30 @@ a {
     text-decoration: none;
 }
 
-font a:hover{
+#backbutton a:hover{
+    color: black;
+}
+
+#backbutton { 
+  display: inline-block;   
+  padding: 5px 12px;    
+  background: rgba(255, 255, 255, 0.2); 
+  border-radius: 20px;     
+  color: white;           
+  cursor: pointer;            
+  margin: auto;
+  width: fit-content;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#wrapper a:hover {
+    color: black;
+}
+
+#backbutton a {
     color: white;
 }
-
-.back-circle {
-  background: #333;
-  color: rgb(0, 0, 0);
-  border: none;
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;       /* bikin lingkaran */
-  cursor: pointer;
-  font-size: 18px;
-  box-shadow: 0 4px 6px rgba(0,0,0,0.2);
-  transition: all 0.3s ease;
-  background-color: white;
-  margin-top: 30px;
-  margin-bottom: 30px;
-}
-
-.back-circle:hover {
-  background: #555;
-  transform: scale(1.1);
-}
-
 
 @media screen and (max-width: 992px) {
     .main {
