@@ -60,11 +60,14 @@ font a:hover{
     #contact {
         padding-left: 10px;
         padding-right: 10px;
+        font-size: 20px;
     }
 
     #wrapper {
         padding-left: 10px;
         padding-right: 10px;
+        width: fit-content;
+        font-size: 30px;
     }
 
 }
