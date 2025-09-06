@@ -49,7 +49,9 @@ body{
 
     #portofoliotext {
         font-size: 30px;
-        max-width: 500px;
+        max-width: 560px;
+        padding-right: 30px;
+        padding-left: 30px;
     }
 
     #logo {
