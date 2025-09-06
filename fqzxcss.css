@@ -159,6 +159,10 @@ body {
   box-shadow: 0 0px 20px rgba(0,0,0,0.4);
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 /* === MEDIA QUERIES === */
 
 /* Tablet & Mobile */
