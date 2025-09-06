@@ -68,6 +68,8 @@ font a:hover{
         padding-right: 10px;
         width: fit-content;
         font-size: 30px;
+        padding-left: 30px;
+        padding-right: 30px;
     }
 
 }
