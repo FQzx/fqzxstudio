@@ -93,6 +93,38 @@ body{
     margin-top: 20%;
 }
 
+#fotowsp {
+    width: 25px;
+}
+
+#fotokali {
+    width: 200px;
+    border-radius: 20px;
+}
+
+#fotokemenag {
+    width: 200px;
+    border-radius: 20px;
+}
+
+#fotoqr {
+    width: 200px;
+    border-radius: 20px;
+}
+
+#fotonw {
+    width: 200px;
+    border-radius: 20px;
+}
+
+#fotoinsta {
+    width: 200px;
+}
+
+#fotoig {
+    width: 250px;
+}
+
 #wrapper3 {
     display: flex;
     text-align: center;
@@ -146,7 +178,7 @@ body{
 }
 
 #fotowsp {
-    width:350px;
+    width:200px;
     border-radius: 20px;
 }
 
