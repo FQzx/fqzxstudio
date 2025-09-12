@@ -1,5 +1,6 @@
 body{
     background: linear-gradient(to right, #141e30, #243b55);
+    margin-bottom: 60px;
 }
 
 .main{
@@ -61,6 +62,45 @@ a {
   width: fit-content;
   margin-top: 20px;
   margin-bottom: 20px;
+}
+
+#wa {
+    display: flex;
+    flex-direction: column;
+    gap: 1px;
+}
+
+#walogo {
+    padding-top: 20px;
+    height: auto;
+    width: 30px;
+    margin: auto;
+}
+
+#iglogo {
+    padding-top: 20px;
+    height: auto;
+    width: 30px;
+    margin: auto;
+}
+
+#emaillogo {
+    padding-top: 20px;
+    height: auto;
+    width: 30px;
+    margin: auto;
+}
+
+#email {
+    margin-top: 20px;
+}
+
+#ig {
+    margin-top: 20px;
+}
+
+#wa {
+    margin-top: 20px;
 }
 
 #wrapper a:hover {
