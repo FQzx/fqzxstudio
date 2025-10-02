@@ -120,7 +120,6 @@ body {
   margin: auto;
   width: fit-content;   
   margin: 60px auto 0 auto;
-  margin-bottom: 20%;
 }
 
 #mycontact a:hover {
@@ -175,6 +174,126 @@ body {
 
 html {
   scroll-behavior: smooth;
+}
+
+#softwarepage {
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+#softwarecontent {
+    text-align: center;
+    background: rgba(255, 255, 255, 0.2); 
+    margin-left: 5%;
+    margin-right: 5%;
+    border-radius: 25px;
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin: auto;
+    gap: 100px;
+    margin-left: 10%;
+    margin-right: 10%;
+    display: flex;
+}
+
+#titlesoftware {
+    font-size: 20px;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.2);
+    box-sizing: border-box; 
+    border-radius: 25px;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 10%;
+    margin-left: 5%;
+    color: white;
+    margin-bottom: 5%;
+    width: fit-content;
+    margin: auto;
+}
+
+#softwarevideo {
+    color: white;
+    text-align: center;
+}
+
+#mysoftwarevideo {
+    color: white;
+}
+
+#softwarephoto {
+    color: white;
+    text-align: center;
+}
+
+#mysoftwarephoto {
+    color: white;
+}
+
+/*icon setting*/
+.premierphoto {
+    height: 50px;
+    align-items: center;
+}
+
+.davinchiphoto {
+    height: 60px;
+}
+
+.alight {
+    height: 50px;
+    border-radius: 10px;
+}
+
+.capcutphoto {
+    height: 50px;
+    border-radius: 10px;
+}
+
+.nodephoto {
+    height: 50px;
+    border-radius: 10px;
+}
+
+.timecutphoto {
+    height: 50px;
+}
+
+.kinemasterphoto {
+    height: 50px;
+}
+
+.vscophoto {
+    height: 50px;
+    background-color: white;
+    border-radius: 10px;
+    padding-top: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+}
+
+.photoshopphoto {
+    height: 50px;
+}
+
+.lightroomphoto {
+    height: 50px;
+}
+
+.snapseedphoto {
+    height: 50px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.alightmotionphoto {
+    height: 50px;
+    border-radius: 10px;
 }
 
 /* === MEDIA QUERIES === */
