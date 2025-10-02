@@ -83,7 +83,7 @@ body{
     color: black;
 }
 
-#wrapper2 {
+#wrapper1 {
     display: flex;
     text-align: center;
     gap: 20px;
@@ -91,6 +91,21 @@ body{
     padding-right: 80px;
     margin: auto;
     margin-top: 20%;
+}
+
+#fotojegleg {
+    width: 300px;
+    border-radius: 20px;
+}
+
+#wrapper2 {
+    display: flex;
+    text-align: center;
+    gap: 20px;
+    padding-left: 80px;
+    padding-right: 80px;
+    margin: auto;
+    margin-top: 50px;
 }
 
 #wrapper3 {
