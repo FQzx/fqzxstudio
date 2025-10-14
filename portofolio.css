@@ -83,7 +83,7 @@ body{
     color: black;
 }
 
-#wrapper1 {
+#wrapperfiksi {
     display: flex;
     text-align: center;
     gap: 20px;
@@ -91,6 +91,16 @@ body{
     padding-right: 80px;
     margin: auto;
     margin-top: 20%;
+}
+
+#wrapper1 {
+    display: flex;
+    text-align: center;
+    gap: 20px;
+    padding-left: 80px;
+    padding-right: 80px;
+    margin: auto;
+    margin-top: 50px;
 }
 
 #fotojegleg {

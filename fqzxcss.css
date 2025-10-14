@@ -199,9 +199,9 @@ html {
 }
 
 #titlesoftware {
-    font-size: 20px;
+    font-size: 30px;
     text-align: center;
-    background: rgba(255, 255, 255, 0.2);
+    /*background: rgba(255, 255, 255, 0.2);*/
     box-sizing: border-box; 
     border-radius: 25px;
     padding-right: 10px;
@@ -216,84 +216,33 @@ html {
     margin: auto;
 }
 
-#softwarevideo {
-    color: white;
+#davinchi {
+    margin: auto;
     text-align: center;
-}
-
-#mysoftwarevideo {
     color: white;
-}
-
-#softwarephoto {
-    color: white;
-    text-align: center;
-}
-
-#mysoftwarephoto {
-    color: white;
+    background: rgba(255, 255, 255, 0.2); 
+    width: fit-content;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-right: 15%;
+    padding-left: 15%;
+    border-radius: 25px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-bottom: 50px;
+    box-shadow: 0 0px 10px rgba(0,0,0,0.4);
 }
 
 /*icon setting*/
-.premierphoto {
-    height: 50px;
-    align-items: center;
+
+#logodav {
+    height: 190px;
+    border-radius: 25px;
 }
 
-.davinchiphoto {
-    height: 60px;
-}
-
-.alight {
-    height: 50px;
-    border-radius: 10px;
-}
-
-.capcutphoto {
-    height: 50px;
-    border-radius: 10px;
-}
-
-.nodephoto {
-    height: 50px;
-    border-radius: 10px;
-}
-
-.timecutphoto {
-    height: 50px;
-}
-
-.kinemasterphoto {
-    height: 50px;
-}
-
-.vscophoto {
-    height: 50px;
-    background-color: white;
-    border-radius: 10px;
-    padding-top: 5px;
-    padding-left: 5px;
-    padding-right: 5px;
-    padding-bottom: 5px;
-}
-
-.photoshopphoto {
-    height: 50px;
-}
-
-.lightroomphoto {
-    height: 50px;
-}
-
-.snapseedphoto {
-    height: 50px;
-    background-color: white;
-    border-radius: 10px;
-}
-
-.alightmotionphoto {
-    height: 50px;
-    border-radius: 10px;
+#logopre {
+    height: 160px;
+    border-radius: 25px;
 }
 
 /* === MEDIA QUERIES === */
@@ -346,6 +295,129 @@ html {
     .myphoto {
         height: 320px;
     }
+
+    #softwarepage {
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+#softwarecontent {
+    text-align: center;
+    background: rgba(255, 255, 255, 0.2); 
+    margin-left: 5%;
+    margin-right: 5%;
+    border-radius: 25px;
+    padding-right: 30px;
+    padding-left: 80px;
+    padding-bottom: 80px;
+    margin: auto;
+    gap: 100px;
+    margin-left: 10%;
+    margin-right: 10%;
+    display: flex;
+    padding-top: 80px;
+}
+
+#titlesoftware {
+    font-size: 20px;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.2);
+    box-sizing: border-box; 
+    border-radius: 25px;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 10%;
+    margin-left: 5%;
+    color: white;
+    margin-bottom: 5%;
+    width: fit-content;
+    margin: auto;
+}
+
+#softwarevideo {
+    color: white;
+    text-align: center;
+    font-size: 12px;
+}
+
+#mysoftwarevideo {
+    color: white;
+    font-size: 20px;
+}
+
+#softwarephoto {
+    color: white;
+    text-align: center;
+    display: flex;
+}
+
+#mysoftwarephoto {
+    color: white;
+}
+
+/*icon setting*/
+.premierphoto {
+    height: 35px;
+    align-items: center;
+}
+
+.davinchiphoto {
+    height: 45px;
+}
+
+.alight {
+    height: 35px;
+    border-radius: 10px;
+}
+
+.capcutphoto {
+    height: 35px;
+    border-radius: 10px;
+}
+
+.nodephoto {
+    height: 50px;
+    border-radius: 10px;
+}
+
+.timecutphoto {
+    height: 50px;
+}
+
+.kinemasterphoto {
+    height: 50px;
+}
+
+.vscophoto {
+    height: 50px;
+    background-color: white;
+    border-radius: 10px;
+    padding-top: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+}
+
+.photoshopphoto {
+    height: 50px;
+}
+
+.lightroomphoto {
+    height: 50px;
+}
+
+.snapseedphoto {
+    height: 50px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.alightmotionphoto {
+    height: 50px;
+    border-radius: 10px;
+}
 
 }
 
