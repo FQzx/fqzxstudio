@@ -1,0 +1,37 @@
+body {
+    text-align: center;
+    background: linear-gradient(to right, #141e30, #243b55);
+}
+
+#about {
+    color: white;
+}
+
+#davinchi {
+    margin: auto;
+    text-align: center;
+    color: white;
+    background: rgba(255, 255, 255, 0.2); 
+    width: fit-content;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-right: 5%;
+    padding-left: 5%;
+    border-radius: 25px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-bottom: 50px;
+    box-shadow: 0 0px 10px rgba(0,0,0,0.4);
+}
+
+/*icon setting*/
+
+#logodav {
+    height: 190px;
+    border-radius: 25px;
+}
+
+#logopre {
+    height: 150px;
+    border-radius: 25px;
+}

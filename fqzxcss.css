@@ -37,6 +37,7 @@ body {
     color: white;
     margin: 0;
     font-size: 28px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.4);
 }
 
 /* Menu kanan */
@@ -90,22 +91,6 @@ body {
     src: url(font/THEBOLDFONT-FREEVERSION.otf);
 }
 
-#learnmore {
-  display: inline-block;   
-  padding: 5px 12px;    
-  background: rgba(255, 255, 255, 0.2); 
-  border-radius: 12px;     
-  color: white;           
-  cursor: pointer;            
-  height: 18px;
-  margin: auto;
-  margin-top: 60px;
-}
-
-#learnmore a:hover {
-    color: black;
-}
-
 #mycontact {
   display: inline-block;   
   padding: 5px 12px;    
@@ -115,11 +100,12 @@ body {
   cursor: pointer;            
   height: 18px;
   margin: auto;
-  margin-top: 60px;
   display: block; 
   margin: auto;
   width: fit-content;   
-  margin: 60px auto 0 auto;
+  margin: 7% auto 0 auto;
+  margin-bottom: 15%;
+   box-shadow: 0 4px 10px rgba(0,0,0,0.4);
 }
 
 #mycontact a:hover {
@@ -162,6 +148,7 @@ body {
 .aboutmetext { 
   flex: 1;   
   text-align: center;   
+
 }
 
 .myphoto {
@@ -224,8 +211,8 @@ html {
     width: fit-content;
     margin-left: 10%;
     margin-right: 10%;
-    padding-right: 15%;
-    padding-left: 15%;
+    padding-right: 5%;
+    padding-left: 5%;
     border-radius: 25px;
     padding-top: 50px;
     padding-bottom: 50px;
@@ -243,6 +230,67 @@ html {
 #logopre {
     height: 160px;
     border-radius: 25px;
+}
+
+#inter {
+    margin: auto;
+    text-align: center;
+    padding-bottom: 40px;
+    color: white;
+}
+
+#buttonsoftware {   
+    display: inline-block;   
+    padding: 5px 12px;    
+    background: rgba(255, 255, 255, 0.2); 
+    border-radius: 12px;     
+    color: white;           
+    cursor: pointer;            
+    height: 18px;
+    margin-top: 7%;
+    margin-bottom: 80px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.4);
+}
+
+#buttonsoftware a:hover {
+    color: black;
+}
+
+#button {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+
+#learnmore {
+  display: inline-block;   
+  padding: 5px 12px;    
+  background: rgba(255, 255, 255, 0.2); 
+  border-radius: 12px;     
+  color: white;           
+  cursor: pointer;            
+  height: 18px;
+  margin-top: 7%;
+  margin-bottom: 80px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.4);
+}
+
+#learnmore a:hover {
+    color: black;
+}
+
+
+
+
+
+
+
+
+
+#copyright {
+    color: white;
+    text-align: center;
+    margin-bottom: 1%;
 }
 
 /* === MEDIA QUERIES === */
