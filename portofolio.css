@@ -2,6 +2,79 @@ body{
     background: linear-gradient(to right, #141e30, #243b55);
 }
 
+/*header adjustable*/
+#header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 70px;
+    width: 97%;
+    margin: 20px auto 0 auto;
+    border-radius: 20px;
+    box-shadow: 0 8px 10px rgba(0,0,0,0.4);
+    backdrop-filter: blur(4px);
+    padding: 0 20px;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Brand (Logo + Text) */
+.brand {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.logof {
+    height: 45px;
+    width: auto;
+    background-color: white;
+    border-radius: 25px;
+}
+
+.FQzx {
+    color: white;
+    margin: 0;
+    font-size: 28px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.4);
+}
+
+.brand a {
+    color: white;
+    text-decoration: none;
+}
+.brand a:hover {
+    color: black;
+    transition: 0.3s;
+}
+/*end brand adjustable*/
+
+/* Menu kanan */
+#header ul {
+    display: flex;
+    gap: 40px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+/*ENDHEADER*/
+
+@font-face {
+    font-family: halofont;
+    src: url(font/THEBOLDFONT-FREEVERSION.otf);
+}
+
+#header li a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    transition: 0.5s;
+}
+
+#header li a:hover {
+    color: black;
+}
+
 #wrapper {
     padding-top: 100px;
 }

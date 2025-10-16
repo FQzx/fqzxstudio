@@ -3,8 +3,82 @@ body {
     background: linear-gradient(to right, #141e30, #243b55);
 }
 
+/*header adjustable*/
+#header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 70px;
+    width: 97%;
+    margin: 20px auto 0 auto;
+    border-radius: 20px;
+    box-shadow: 0 8px 10px rgba(0,0,0,0.4);
+    backdrop-filter: blur(4px);
+    padding: 0 20px;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Brand (Logo + Text) */
+.brand {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.logof {
+    height: 45px;
+    width: auto;
+    background-color: white;
+    border-radius: 25px;
+}
+
+.FQzx {
+    color: white;
+    margin: 0;
+    font-size: 28px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.4);
+}
+
+.brand a {
+    color: white;
+    text-decoration: none;
+}
+.brand a:hover {
+    color: black;
+    transition: 0.3s;
+}
+/*end brand adjusTable*/
+
+/* Menu kanan */
+#header ul {
+    display: flex;
+    gap: 40px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+#header li a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    transition: 0.5s;
+}
+
+#header li a:hover {
+    color: black;
+}
+/*ENDHEADER*/
+
 #about {
     color: white;
+}
+
+#title {
+    margin-top: 10%;
+    margin-bottom: 7%;
+    font-family: Arial, sans-serif;
 }
 
 #davinchi {
@@ -34,4 +108,88 @@ body {
 #logopre {
     height: 150px;
     border-radius: 25px;
+}
+
+
+
+
+
+
+
+#backbutton {
+  display: inline-block;   
+  padding: 5px 12px;    
+  background: rgba(255, 255, 255, 0.2); 
+  border-radius: 12px;     
+  color: white;           
+  cursor: pointer;            
+  height: 18px;
+  margin: auto;
+  margin-top: 60px;
+  margin-bottom: 20px;
+  box-shadow: 0 0px 10px rgba(0,0,0,0.4);
+}
+
+#backbutton a {
+    color: white;
+    text-decoration: none;
+}
+
+#backbutton a:hover {
+    color: black;
+}
+
+/* === MEDIA QUERIES === */
+
+/* Tablet & Mobile */
+@media screen and (max-width: 992px) {
+    #about {
+    color: white;
+    font-size: 30px;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+#davinchi {
+    margin: auto;
+    text-align: center;
+    color: white;
+    background: rgba(255, 255, 255, 0.2); 
+    width: fit-content;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-right: 5%;
+    padding-left: 5%;
+    border-radius: 25px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-bottom: 50px;
+    box-shadow: 0 0px 10px rgba(0,0,0,0.4);
+}
+
+#titledav {
+    font-size: 25px;
+}
+
+#infodav {
+    font-size: 15px;
+}
+
+/*icon setting*/
+
+#logodav {
+    height: 100px;
+    border-radius: 25px;
+}
+
+#logopre {
+    height: 80px;
+    border-radius: 20px;
+}
+
+}
+
+/* Smartphone kecil */
+@media screen and (max-width: 480px) {
+
 }

@@ -53,7 +53,7 @@ body {
     text-decoration: none;
     color: white;
     font-size: 18px;
-    transition: 0.3s;
+    transition: 0.5s;
 }
 
 #header li a:hover {
@@ -114,6 +114,7 @@ body {
 
 .brand a:hover {
     color: black;
+    transition: 0.3s;
 }
 
 /* === WRAPPER ABOUT === */
@@ -312,7 +313,7 @@ html {
     #header ul {
         justify-content: center;
         flex-wrap: wrap;
-        gap: 20px;
+        gap: 10px;
     }
 
     #who {
