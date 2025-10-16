@@ -405,6 +405,14 @@ html {
     color: white;
 }
 
+#copyright {
+    color: white;
+    text-align: center;
+    font-size: 12px;
+    margin-bottom: 1%;
+}
+
+
 /*icon setting*/
 .premierphoto {
     height: 35px;
