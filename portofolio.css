@@ -272,6 +272,18 @@ a {
     border-radius: 20px;
 }
 
+
+
+
+
+
+
+#copyright {
+    color: white;
+    text-align: center;
+    margin-bottom: 1%;
+}
+
 @media screen and (max-width: 992px) {
     #title {
         font-size: 15px;

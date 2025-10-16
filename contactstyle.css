@@ -188,6 +188,18 @@ a {
     color: white;
 }
 
+
+
+
+
+
+
+#copyright {
+    color: white;
+    text-align: center;
+    margin-bottom: 1%;
+}
+
 @media screen and (max-width: 992px) {
     .main {
         flex-direction: column;
