@@ -7,6 +7,14 @@ body {
     font-family: Arial, sans-serif;
 }
 
+#all {
+    width: 1250px;
+    max-width: 100%;
+    height: 100%;
+    min-height: 100vh;
+    margin: auto;
+}
+
 /* Lapisan lava */
 .lava-wrapper {
   position: fixed;
