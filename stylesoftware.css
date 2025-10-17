@@ -149,9 +149,8 @@ body {
 }
 
 /*icon setting*/
-
 #logodav {
-    height: 190px;
+    height: 170px;
     border-radius: 25px;
 }
 
@@ -160,11 +159,90 @@ body {
     border-radius: 25px;
 }
 
+#davinchi {
+    display: flex;
+    align-items: center;
+    text-align: left;
+    gap: 5%;
+}
+
+#titledav {
+    text-align: center;
+    font-size: 30px;
+}
+
+#infoal {
+    padding-left: 4%;
+}
+
+#titleal {
+    text-align: center;
+}
+
+#infophotoshop {
+    text-align: left;
+}
 
 
+#photoshop {
+    align-items: center;
+    display: flex;
+    gap: 4%;
+    margin: auto;
+    text-align: center;
+    color: white;
+    background: rgba(255, 255, 255, 0.2); 
+    width: fit-content;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-right: 5%;
+    padding-left: 5%;
+    border-radius: 25px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-bottom: 50px;
+    box-shadow: 0 0px 10px rgba(0,0,0,0.4);
+}
 
+#fixed {
+    align-items: center;
+    display: flex;
+    gap: 4.3%;
+    margin: auto;
+    text-align: left;
+    color: white;
+    background: rgba(255, 255, 255, 0.2); 
+    width: fit-content;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-right: 5%;
+    padding-left: 5%;
+    border-radius: 25px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-bottom: 50px;
+    box-shadow: 0 0px 10px rgba(0,0,0,0.4);
+}
 
-
+#amfixed {
+    align-items: center;
+    display: flex;
+    gap: 4%;
+    margin: auto;
+    text-align: left;
+    color: white;
+    background: rgba(255, 255, 255, 0.2); 
+    width: fit-content;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-right: 5%;
+    padding-left: 5%;
+    border-radius: 25px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-bottom: 50px;
+    box-shadow: 0 0px 10px rgba(0,0,0,0.4);
+}
 
 #backbutton {
   display: inline-block;   
@@ -188,7 +266,6 @@ body {
 #backbutton a:hover {
     color: black;
 }
-
 
 
 
