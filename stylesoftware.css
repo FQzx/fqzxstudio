@@ -7,6 +7,14 @@ body {
   font-family: Arial, sans-serif;
 }
 
+#all {
+    width: 1250px;
+    max-width: 100%;
+    height: 100%;
+    min-height: 100vh;
+    margin: auto;
+}
+
 /* Lapisan lava */
 .lava-wrapper {
   position: fixed;
@@ -152,6 +160,7 @@ body {
 #logodav {
     height: 170px;
     border-radius: 25px;
+    padding-left: 1%;
 }
 
 #logopre {
@@ -172,22 +181,25 @@ body {
 }
 
 #infoal {
-    padding-left: 4%;
+    padding-left: 3%;
 }
 
 #titleal {
     text-align: center;
+    align-items: center;
+    padding-left: 3%;
 }
 
 #infophotoshop {
     text-align: left;
+    padding-left: 1%;
 }
 
 
 #photoshop {
     align-items: center;
     display: flex;
-    gap: 4%;
+    gap: 3%;
     margin: auto;
     text-align: center;
     color: white;
@@ -270,9 +282,6 @@ body {
 
 
 
-
-
-
 #copyright {
     color: white;
     text-align: center;
@@ -283,49 +292,24 @@ body {
 
 /* Tablet & Mobile */
 @media screen and (max-width: 992px) {
-    #about {
-    color: white;
-    font-size: 30px;
-    margin-top: 10%;
-    margin-bottom: 10%;
-}
+    #header {
+        flex-direction: column;
+        height: auto;
+        padding: 15px;
+        text-align: center;
+    }
 
-#davinchi {
-    margin: auto;
-    text-align: center;
-    color: white;
-    background: rgba(255, 255, 255, 0.2); 
-    width: fit-content;
-    margin-left: 10%;
-    margin-right: 10%;
-    padding-right: 5%;
-    padding-left: 5%;
-    border-radius: 25px;
-    padding-top: 50px;
-    padding-bottom: 50px;
-    margin-bottom: 50px;
-    box-shadow: 0 0px 10px rgba(0,0,0,0.4);
-}
+    .brand {
+        justify-content: center;
+        margin-bottom: 10px;
+    }
 
-#titledav {
-    font-size: 25px;
-}
+    #header ul {
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
 
-#infodav {
-    font-size: 15px;
-}
-
-/*icon setting*/
-
-#logodav {
-    height: 100px;
-    border-radius: 25px;
-}
-
-#logopre {
-    height: 80px;
-    border-radius: 20px;
-}
 
 }
 
