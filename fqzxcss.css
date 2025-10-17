@@ -389,6 +389,24 @@ html {
         text-align: center;
     }
 
+    #welcome {
+    padding: 0;
+    margin: 0 auto;
+    text-align: center;
+    color: white;
+    margin-top: 30%;
+    font-size: 30px;
+    margin-bottom: 30px;
+    }
+
+    .fancy {
+        font-size: 30px;
+    }
+
+    .tomy {
+        font-size: 30px;
+    }
+
     .brand {
         justify-content: center;
         margin-bottom: 10px;
@@ -432,6 +450,8 @@ html {
     #softwarepage {
     margin-top: 10%;
     margin-bottom: 10%;
+    }
+    
 }
 
 #softwarecontent {
@@ -558,8 +578,6 @@ html {
 .alightmotionphoto {
     height: 50px;
     border-radius: 10px;
-}
-
 }
 
 /* Smartphone kecil */
