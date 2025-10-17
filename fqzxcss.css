@@ -382,13 +382,6 @@ html {
 
 /* Tablet & Mobile */
 @media screen and (max-width: 992px) {
-    #header {
-        flex-direction: column;
-        height: auto;
-        padding: 15px;
-        text-align: center;
-    }
-
     #welcome {
     padding: 0;
     margin: 0 auto;
@@ -405,6 +398,13 @@ html {
 
     .tomy {
         font-size: 30px;
+    }
+    
+    #header {
+        flex-direction: column;
+        height: auto;
+        padding: 15px;
+        text-align: center;
     }
 
     .brand {
