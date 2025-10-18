@@ -392,6 +392,8 @@ html {
     margin-bottom: 30px;
     }
 
+
+
     .fancy {
         font-size: 30px;
     }
@@ -594,6 +596,13 @@ html {
         font-size: 14px;
         padding: 10px;
     }
+
+        #header li a {
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    transition: 0.5s;
+}
 
     .aboutmetext {
         font-size: 14px;
