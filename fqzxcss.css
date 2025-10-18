@@ -6,6 +6,13 @@ body {
   font-family: Arial, sans-serif;
 }
 
+#all {
+    width: 1250px;
+    max-width: 100%;
+    height: 100%;
+    min-height: 100vh;
+    margin: auto;
+}
 
 body {
   opacity: 0;
@@ -213,7 +220,7 @@ body {
 #mycontact {
   display: inline-block;   
   padding: 5px 12px;    
-  margin-top: 9%;
+  margin-top: 1.6%;
   border-radius: 12px;     
   color: white;           
   cursor: pointer;            
@@ -264,7 +271,6 @@ body {
     margin-left: 15%;
     margin-top: 5%;
     margin-bottom: 13%;
-    position: absolute;
 }
 
 
@@ -433,17 +439,10 @@ html {
 }
 
 
-
-
-
-
-
-
-
 #copyright {
     color: white;
     text-align: center;
-    margin-bottom: 1%;
+    margin-bottom: 3%;
 }
 
 /* === MEDIA QUERIES === */
