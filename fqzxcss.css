@@ -305,7 +305,7 @@ body {
 
 #mycontact {
   display: inline-block;
-  
+
   margin-top: 2%;
   margin-left: 1px;
   border-radius: 12px;
@@ -645,8 +645,8 @@ html {
   }
 
   #mycontact {
-    margin-top: 10px;
-    font-size: 15px;
+    margin-top: 15px;
+    font-size: 13px;
   }
 
   #komunikasi {
