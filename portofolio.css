@@ -108,6 +108,7 @@ body {
     display: flex;
     align-items: center;
     gap: 12px;
+    text-shadow: 0 0 20px rgba(255, 255, 255, 0.3);
 }
 
 .logof {
@@ -169,6 +170,7 @@ body {
     text-align: center;
     display: flex;
     flex-direction: column;
+    text-shadow: 0 0 20px rgba(255, 255, 255, 0.3);
 }
 
 #portofoliotext {

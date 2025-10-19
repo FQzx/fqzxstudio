@@ -503,11 +503,11 @@ html {
 }
 
 #wa {
-  height: 20px;
+  height: 22px;
 }
 
 #email {
-  height: 30px;
+  height: 25px;
 }
 
 
@@ -845,20 +845,25 @@ html {
 
   #lastcontent {
     display: flex;
+    flex-direction: column;
     margin: auto;
     gap: 30px;
     align-items: center;
   }
 
   #titlelast {
+    margin-top: 20%;
+    font-size: 10px;
     color: white;
-    text-align: center;
+    text-align: left;
+    margin-left: 7%;
     text-shadow: 0 0 20px rgba(255, 255, 255, 0.3);
   }
 
   #titlelastpro {
     color: white;
     text-align: center;
+    font-size: 15px;
   }
 
   #fiksi {
@@ -879,6 +884,7 @@ html {
     justify-content: center;
     text-align: justify;
     align-items: center;
+    font-size: 10px;
   }
 
   /*End Lastest*/
@@ -891,6 +897,11 @@ html {
     margin-top: 5%;
   }
 
+  #contactme {
+    text-shadow: 0 0 20px rgba(255, 255, 255, 0.3);
+    font-size: 15px;
+  }
+
   #sosialmedia {
     display: flex;
     justify-content: left;
@@ -901,15 +912,15 @@ html {
   }
 
   #ig {
-    height: 20px;
+    height: 15px;
   }
 
   #wa {
-    height: 20px;
+    height: 16px;
   }
 
   #email {
-    height: 30px;
+    height: 18px;
   }
 
 
