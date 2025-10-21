@@ -2,7 +2,6 @@ body {
     margin-bottom: 60px;
     margin: 0;
     background: radial-gradient(circle at 30% 30%, #0c1629, #040816 70%);
-    min-height: 200vh;
     overflow-x: hidden;
     font-family: Arial, sans-serif;
 }

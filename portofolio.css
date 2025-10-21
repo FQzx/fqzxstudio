@@ -1,7 +1,6 @@
 body {
     margin: 0;
     background: radial-gradient(circle at 30% 30%, #0c1629, #040816 70%);
-    min-height: 200vh;
     overflow-x: hidden;
     font-family: Arial, sans-serif;
 }
@@ -255,7 +254,6 @@ body {
     text-align: center;
     display: flex;
     flex-direction: column;
-    text-shadow: 0 0 20px rgba(255, 255, 255, 0.3);
 }
 
 #portofoliotext {
@@ -265,7 +263,9 @@ body {
     padding-right: 5vw;
 }
 
-
+#portofolio {
+    text-shadow: 0 0 20px rgba(255, 255, 255, 0.3);
+}
 
 #logo {
     height: 70px;
@@ -448,11 +448,9 @@ a {
     border-radius: 20px;
 }
 
-
-
-
-
-
+#penjelasan {
+    text-align: center;
+}
 
 #copyright {
     color: white;
