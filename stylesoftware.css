@@ -312,6 +312,11 @@ body {
     font-size: 30px;
 }
 
+#titlepho {
+    text-align: center;
+    font-size: 30px;
+}
+
 #titleall {
     text-align: center;
     font-size: 30px;
@@ -525,6 +530,13 @@ body {
         font-size: 15px;
         margin: unset;
         padding: unset;
+        padding-left: 5px;
+    }
+
+    #titlepho {
+        text-align: center;
+        font-size: 15px;
+        padding-left: 14px;
     }
 
     #titleall {
@@ -594,7 +606,7 @@ body {
         text-align: center;
         margin: unset;
         padding: unset;
-        padding-left: 9px;
+        padding-left: 10spx;
     }
 
     #infoal {
