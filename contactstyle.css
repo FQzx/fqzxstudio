@@ -239,7 +239,11 @@ body {
 
 .main {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+    gap: 50px;
+    margin: auto;
 }
 
 #title {
@@ -280,6 +284,7 @@ body {
     margin-bottom: 5%;
     margin-top: 5%;
     box-shadow: 0 0px 20px rgba(0, 0, 0, 0.4);
+    padding: 20px;
 }
 
 a {
@@ -428,7 +433,8 @@ a {
     }
 
     #explain {
-        font-size: 13px;;
+        font-size: 13px;
+        ;
     }
 
     #contact {
@@ -437,7 +443,7 @@ a {
         padding: 20px;
         padding-top: 20px;
     }
-    
+
     #copyright {
         font-size: 13px;
     }
@@ -518,6 +524,6 @@ a {
 
     #copyright {
         font-size: 10px;
-    }   
+    }
 
 }
