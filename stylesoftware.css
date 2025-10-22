@@ -293,6 +293,23 @@ body {
     border-radius: 25px;
 }
 
+#logonode {
+    height: 150px;
+    border-radius: 25px;
+    background-color: white;
+    padding: 5px;
+}
+
+#logoinshot {
+    height: 180px;
+    border-radius: 25px;
+}
+
+#logonode {
+    height: 150px;
+    border-radius: 25px;
+}
+
 #davinchi {
     display: flex;
     align-items: center;
@@ -315,6 +332,7 @@ body {
 #titlepho {
     text-align: center;
     font-size: 30px;
+    padding-left: 1%;
 }
 
 #titleall {
@@ -323,10 +341,79 @@ body {
 }
 
 #infoal {
+    padding-left: 6%;
+}
+
+#infoin {
+    padding-left: 4.5%;
+}
+
+#infonod {
+    padding-left: 8%;
+}
+
+#infovsco {
+    padding-left: 6.5%;
+}
+
+#infopre {
+    padding-left: 1%;
+}
+
+#infodav {
+    padding-left: 1%;
+}
+
+#infocap {
+    padding-left: 5%;
+}
+
+
+#titlekine {
+    font-size: 30px;
+}
+
+#infotimecut {
     padding-left: 3%;
 }
 
+#infosnap {
+    padding-left: 1%;
+}
+
+#infocan {
+    padding-left: 8%;
+}
+
+#titlevsco {
+    padding-left: 20%;
+}
+
+#titlecanva {
+    padding-left: 20%;
+}
+
+#titlecor {
+    font-size: 30px;
+}
+
+#titletimecut {
+    padding-left: 10%;
+}
+
 #titleal {
+    text-align: center;
+    align-items: center;
+    padding-left: 20%;
+}
+
+#titlein {
+    text-align: center;
+    align-items: center;
+    padding-left: 3%;
+}
+
+#titlenod {
     text-align: center;
     align-items: center;
     padding-left: 3%;
@@ -334,7 +421,7 @@ body {
 
 #infophotoshop {
     text-align: left;
-    padding-left: 1%;
+    padding-left: 2%;
 }
 
 
@@ -379,6 +466,46 @@ body {
 }
 
 #amfixed {
+    align-items: center;
+    display: flex;
+    gap: 4%;
+    margin: auto;
+    text-align: left;
+    color: white;
+    background: rgba(255, 255, 255, 0.2);
+    width: fit-content;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-right: 5%;
+    padding-left: 5%;
+    border-radius: 25px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-bottom: 50px;
+    box-shadow: 0 0px 10px rgba(0, 0, 0, 0.4);
+}
+
+#infixed {
+    align-items: center;
+    display: flex;
+    gap: 4%;
+    margin: auto;
+    text-align: left;
+    color: white;
+    background: rgba(255, 255, 255, 0.2);
+    width: fit-content;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-right: 5%;
+    padding-left: 5%;
+    border-radius: 25px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-bottom: 50px;
+    box-shadow: 0 0px 10px rgba(0, 0, 0, 0.4);
+}
+
+#nodfixed {
     align-items: center;
     display: flex;
     gap: 4%;
@@ -472,7 +599,7 @@ a:hover {
     }
 
     #explain {
-        font-size: 10px;
+        font-size: 15px;
         margin-left: 50px;
         margin-right: 50px;
     }
@@ -499,7 +626,7 @@ a:hover {
         margin: unset;
         padding: unset;
         border-radius: 10px;
-        width: 255px;
+        width: 455px;
         margin-top: 10px;
         padding-top: 3px;
     }
@@ -508,7 +635,7 @@ a:hover {
         margin: unset;
         padding: unset;
         border-radius: 10px;
-        width: 250px;
+        width: 450px;
         padding-left: 5px;
         padding-top: 5px;
         margin-top: 5px;
@@ -519,7 +646,6 @@ a:hover {
         font-size: 15px;
         margin: unset;
         padding: unset;
-        padding-left: 3px;
     }
 
     #titlepho {
@@ -543,6 +669,13 @@ a:hover {
         border-radius: 10px;
     }
 
+    #logoinshot {
+        height: 50px;
+        border-radius: 10px;
+        margin: unset;
+        padding: unset;
+    }
+
     #infopre {
         display: none;
     }
@@ -553,7 +686,7 @@ a:hover {
         margin: unset;
         padding: unset;
         border-radius: 10px;
-        width: 250px;
+        width: 454px;
         padding-left: 5px;
         padding-top: 5px;
         margin-top: 5px;
@@ -564,12 +697,70 @@ a:hover {
     }
 
 
+    #infovsco {
+        display: none;
+    }
+
+    #infocap {
+        display: none;
+    }
+
+    #infotimecut {
+        display: none;
+    }
+
+    #infokine {
+        display: none;
+    }
+
+    #infosnap {
+        display: none;
+    }
+
+    #infocan {
+        display: none;
+    }
+
+    #infocor {
+        display: none;
+    }
+
+    #titlevsco {
+        font-size: 15px;
+        padding-left: 10px;
+    }
+
+    #titlecanva {
+        font-size: 15px;
+        padding-left: 10px;
+    }
+
+    #titlecor {
+        padding-left: 10px;
+        font-size: 15px;
+    }
+
+    #titletimecut {
+        font-size: 15px;
+        padding-left: 10px;
+    }
+
+    #titlekine {
+        font-size: 15px;
+        padding-left: 10px;
+    }
+
+    #titlein {
+        font-size: 15px;
+        padding-left: 10px;
+    }
+
 
     #fixed {
         margin: unset;
         padding: unset;
         border-radius: 10px;
-        width: 250px;
+        width: 455px;
         padding-left: 5px;
         padding-top: 5px;
         margin-top: 5px;
@@ -585,7 +776,26 @@ a:hover {
         margin: unset;
         padding: unset;
         border-radius: 10px;
-        width: 250px;
+        width: 455px;
+        padding-left: 5px;
+        padding-top: 5px;
+        margin-top: 5px;
+    }
+
+    #infixed {
+        margin: unset;
+        padding: unset;
+        border-radius: 10px;
+        width: 455px;
+        padding-top: 5px;
+        margin-top: 5px;
+    }
+
+    #nodfixed {
+        margin: unset;
+        padding: unset;
+        border-radius: 10px;
+        width: 455px;
         padding-left: 5px;
         padding-top: 5px;
         margin-top: 5px;
@@ -599,8 +809,42 @@ a:hover {
         padding-left: 10px;
     }
 
+    #titlein {
+        font-size: 15px;
+        text-align: center;
+        margin: unset;
+        padding: unset;
+        padding-left: 5px;
+    }
+
+    #titlenod {
+        font-size: 15px;
+        text-align: center;
+        margin: unset;
+        padding: unset;
+        padding-left: 10px;
+    }
+
     #infoal {
         display: none;
+    }
+
+    #infoin {
+        display: none;
+    }
+
+    #infonod {
+        display: none;
+    }
+
+
+
+
+    #logonode {
+        height: 30px;
+        border-radius: 10px;
+        padding: 5px;
+        background-color: white;
     }
 
     #backbutton {
@@ -747,6 +991,13 @@ a:hover {
         border-radius: 10px;
     }
 
+    #logoinshot {
+        height: 50px;
+        border-radius: 10px;
+        margin: unset;
+        padding: unset;
+    }
+
     #infopre {
         display: none;
     }
@@ -767,7 +1018,57 @@ a:hover {
         display: none;
     }
 
+    #infovsco {
+        display: none;
+    }
 
+    #infocap {
+        display: none;
+    }
+
+    #infotimecut {
+        display: none;
+    }
+
+    #infokine {
+        display: none;
+    }
+
+    #infosnap {
+        display: none;
+    }
+
+    #infocan {
+        display: none;
+    }
+
+    #infocor {
+        display: none;
+    }
+
+    #titlevsco {
+        font-size: 15px;
+    }
+
+    #titlecanva {
+        font-size: 15px;
+        padding-left: 12px;
+    }
+
+    #titlecor {
+        padding-left: 12px;
+        font-size: 15px;
+    }
+
+    #titletimecut {
+        font-size: 15px;
+        padding-left: 12px;
+    }
+
+    #titlekine {
+        font-size: 15px;
+        padding-left: 12px;
+    }
 
     #fixed {
         margin: unset;
@@ -795,7 +1096,42 @@ a:hover {
         margin-top: 5px;
     }
 
+    #infixed {
+        margin: unset;
+        padding: unset;
+        border-radius: 10px;
+        width: 250px;
+        padding-top: 5px;
+        margin-top: 5px;
+    }
+
+    #nodfixed {
+        margin: unset;
+        padding: unset;
+        border-radius: 10px;
+        width: 250px;
+        padding-left: 5px;
+        padding-top: 5px;
+        margin-top: 5px;
+    }
+
     #titleal {
+        font-size: 15px;
+        text-align: center;
+        margin: unset;
+        padding: unset;
+        padding-left: 10px;
+    }
+
+    #titlein {
+        font-size: 15px;
+        text-align: center;
+        margin: unset;
+        padding: unset;
+        padding-left: 5px;
+    }
+
+    #titlenod {
         font-size: 15px;
         text-align: center;
         margin: unset;
@@ -805,6 +1141,24 @@ a:hover {
 
     #infoal {
         display: none;
+    }
+
+    #infoin {
+        display: none;
+    }
+
+    #infonod {
+        display: none;
+    }
+
+
+
+
+    #logonode {
+        height: 30px;
+        border-radius: 10px;
+        padding: 5px;
+        background-color: white;
     }
 
     #backbutton {
