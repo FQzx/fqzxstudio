@@ -1,171 +1,276 @@
 <!DOCTYPE html>
 <html>
-<div class="viewport">
 
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>FQzx STUDIO</title>
-        <link rel="stylesheet" href="fqzxcss.css?v=1.1" type="text/css">
-        <link rel="icon" type="image/png" href="favicon/favicon web.png">
-    </head>
-    <div id="all">
+<head>
+    <link rel="preload" as="image" href="files/Portfolio/foto/Bunga.webp">
+    <link rel="preload" as="image" href="files/Portfolio/foto/Tugu.webp">
+    <link rel="preload" as="image" href="files/Portfolio/foto/Solo.webp">
+    <link rel="preload" href="https://player.vimeo.com/video/1130094353" as="video">
+    <link rel="preload" href="https://player.vimeo.com/video/1130094306" as="video">
+    <link rel="preload" href="https://player.vimeo.com/api/player.js" as="script">
+    <link rel="icon" type="image/png" href="files/Favicon/favicon web.png">
 
-        <body>
-            <div id="wrap"></div>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FQzx STUDIO</title>
 
+    <link rel="stylesheet" href="indexstyle.css" type="text/css">
 
-            <div class="lava-wrapper">
-                <div class="blob b1"></div>
-                <div class="blob b2"></div>
-                <div class="blob b3"></div>
-                <div class="blob b4"></div>
+</head>
 
-                <!-- Layer kedua -->
-                <div class="blob b5"></div>
-                <div class="blob b6"></div>
-                <div class="blob b7"></div>
+<script src="https://cdn.jsdelivr.net/npm/@studio-freight/lenis@1.0.34/dist/lenis.min.js"></script>
+
+<body>
+    <div class="lava-wrapper">
+        <div class="blob b1"></div>
+        <div class="blob b2"></div>
+        <div class="blob b3"></div>
+        <div class="blob b4"></div>
+        <div class="blob b5"></div>
+        <div class="blob b6"></div>
+        <div class="blob b7"></div>
+    </div>
+
+    <div id="wrapsall">
+
+        <div id="header">
+            <div id="brand">
+                <img src="files/Logo/FQzx.png" alt="brand" id="brandlogo">
+                <a href="https://fqzx.my.id" id=fqzx>FQzx STUDIO</a>
             </div>
-
-
-            <!-- Header -->
-            <div id="header">
-                <div class="brand">
-                    <img src="logo/F logo.png" alt="Logo" class="logof">
-                    <h1>
-                        <a href="index.html">FQzx STUDIO
-                    </h1>
-                </div>
+            <div id="list">
                 <ul>
                     <li><a href="index.html">Home</a></li>
-                    <li><a href=#about>About</a></li>
-                    <li><a href="portofolio.html">Portfolio</a></li>
-                    <li><a href="software.html">Software</a></li>
-                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="#about" id="navabout">About</a></li>
+                    <li><a href="html/softwares.html">Softwares</a></li>
+                    <li><a href="html/projects.html">Projects</a></li>
+                    <li><a href="html/contact.html">Contact</a></li>
                 </ul>
             </div>
+        </div>
 
-            <div id="flex">
-                <div id="welcome">
-                    <h1 class="fancy">Welcome!</h1>
-                    <h1 class="tomy">To My Portfolio</h1>
-                    <a href="portofolio.html" id="myworks">My Works</a>
+        <div id="opening">
+            <div id="intro">
+                <h1 id="halo">Halo, Saya Faiz</h1>
+                <div id="flexintro">
+                    <p id="title"><span class="bold"> Color Grading Specialist</span></p>
+                    <p id="title2">| Front-End Developer</p>
                 </div>
-                <div id="text">
-                    <h3>Photo & Video Editor | Color Grading Specialist</h3>
-                    <p id=openingtext>Mengubah momen dan ide menjadi visual yang bercerita dan bermakna.</p>
-                </div>
+                <p id="introduce">Produser Visual yang membangun narasi mendalam melalui Editorial, Fotografi, dan
+                    Videografi. Saya menghidupkan setiap frame dengan keahlian inti di <span class="bold"> Color
+                        Grading Dan sebagai Front-End Developer</span></p>
             </div>
 
+            <div class="wrappermobile">
+                <div id="mobilemy">
+                    <a href="html/projects.html" id="mobilemyworks">My Works</a>
+                </div>
 
-            <div id="wrapper">
-                <div class="me">
-                    <div id="about" class="aboutmetext">
-                        <h1 class="this">This Is Me</h1>
-                        <p id="textabout">
-                            Perkenalkan saya Faiz Wahyu Setiawan, seorang kreator visual yang fokus pada editing,
-                            fotografi, dan videografi.
-                            Bagi saya, visual bukan hanya sekadar media, tapi cara bercerita yang bisa menyentuh emosi
-                            dan menyampaikan pesan tanpa kata.
-                            Setiap karya yang saya buat lahir dari proses berpikir, merasakan, dan menerjemahkan ide
-                            menjadi bentuk visual yang bisa dinikmati.
-                            <br><br>
-                            Dengan pengalaman dan semangat yang terus tumbuh, saya selalu berusaha mengembangkan diri
-                            dan menghadirkan hasil kerja yang tidak hanya estetik, tapi juga bermakna.
-                            Melalui portofolio ini, saya ingin memperkenalkan siapa saya, apa yang saya kerjakan, dan
-                            bagaimana saya melihat dunia melalui lensa visual.
-                        </p>
-                    </div>
-                    <div class="movephoto">
-                        <img src="photo/faiz.png" class="myphoto" alt="Faiz Wahyu Setiawan">
-                    </div>
-                </div>
-            </div>
-            <div id="komunikasi">
-                <h3 id="interest">Interest?</h3>
-                <div id="mycontact">
-                    <a href="contact.html">My Contact</a>
-                </div>
-            </div>
-
-            <div id="projects">
-                <div id="titlelast">
-                    <h1>Lastest Project</h1>
-                </div>
-            </div>
-            <div id="wraplast">
-                <div id="myproject">
-                    <h3 id="titlelastpro">FIKSI 2025</h3>
-                </div>
-                <div id="lastcontent">
-
-                    <a href="https://youtu.be/YEaq5pXVY5Q?si=KbLcXnOo8Mbv0eZR" target="_blank">
-                        <img src="portofolio/FIKSI 2025.jpg" alt="fiksi 2025" id="fiksi">
+                <div id="mobilecontent">
+                    <a href="https://github.com/FQzx" target="_blank">
+                        <img src="files/Icon/github.png" alt="github" id="mobilegithub">
                     </a>
-                    <p id="textpro">FIKSI Tahun 2025 dirancang dengan mengedepankan prinsip inklusivitas,
-                        keberlanjutan, dan inovasi. Berlandaskan pada program Manajemen Talenta Nasional, ajang ini
-                        menjadi wadah strategis bagi para siswa SMA/MA dan SMK/MAK untuk berkompetisi secara sehat dalam
-                        berbagai bidang yang relevan dengan tantangan global. Pendekatan yang mengintegrasikan ekonomi
-                        hijau, ekonomi kreatif, dan ekonomi digital diharapkan dapat melahirkan solusi kewirausahaan
-                        yang memberikan dampak positif, baik secara sosial maupun lingkungan.</p>
-                </div>
-            </div>
-
-            <div id="wraplastnext">
-                <div id="myproject">
-                    <h3 id="titlelastpro">JEGLEG<br>DuniaTanpaSpasi #4</h3>
-                </div>
-                <div id="lastcontent">
-
-                    <a href="https://youtu.be/YEaq5pXVY5Q?si=KbLcXnOo8Mbv0eZR" target="_blank">
-                        <img src="portofolio/JEGLEG.jpg" alt="jegleg" id="jegleg">
+                    <a href="https://www.instagram.com/poxyghx/" target="_blank">
+                        <img src="files/Icon/ig whit eline.png" alt="instagram" id="mobileig">
                     </a>
-                    <p id="textpro">“Jegleg” bercerita tentang sekelompok anak muda kampung yang semakin jauh satu
-                        sama lain karena kesibukan, gadget, dan rutinitas masing-masing. Suatu malam, listrik padam
-                        memaksa mereka keluar dari zona nyaman dan kembali berkumpul di lapangan tempat masa kecil
-                        mereka dulu. Pertemuan itu membuka kembali kenangan, menghadirkan kebersamaan, dan menggerakkan
-                        warga kampung untuk kembali rukun. Dari momen sederhana bernama “jegleg”, lahirlah kembali rasa
-                        hangat dan harmoni yang sempat hilang.</p>
-                </div>
-            </div>
-
-            <div id="wraplastnext">
-                <div id="myproject">
-                    <h3 id="titlelastpro">Kalijaga Scout Competition</h3>
-                </div>
-                <div id="lastcontent">
-
-                    <a href="https://youtu.be/YEaq5pXVY5Q?si=KbLcXnOo8Mbv0eZR" target="_blank">
-                        <img src="portofolio/thumbnail.png" alt="jegleg" id="fiksi">
+                    <a href="mailto:faiz.wahyusetiawan@gmail.com" target="_blank">
+                        <img src="files/Icon/whit eline email.png" alt="email" id="mobileemail">
                     </a>
-                    <p id="textpro">Video kreatif ini disusun sebagai upaya pengenalan dan pelestarian nilai-nilai
-                        budaya lokal. Materi yang disajikan bersumber dari kajian ilmiah, observasi lapangan, serta
-                        wawancara dengan narasumber terkait. Diharapkan tayangan ini dapat menambah wawasan, memperkuat
-                        apresiasi, serta menumbuhkan rasa cinta terhadap warisan budaya bangsa, khususnya di wilayah
-                        Daerah Istimewa Yogyakarta.</p>
                 </div>
             </div>
 
-            <div id="mysosial">
-                <h2 id="contactme">Contact Me</h2>
-            </div>
+        </div>
 
-            <div id="sosialmedia">
-                <a href="https://www.instagram.com/poxyghx/" target="_blank">
-                    <img src="icon/ig whit eline.png" alt="ig" id="ig">
+        <hr>
+
+        <div id="content">
+            <a href="html/projects.html" id="myworks">My Works</a>
+            <a href="https://github.com/FQzx" target="_blank">
+                <img src="files/Icon/github.png" alt="github" id="github">
+            </a>
+            <a href="https://www.instagram.com/poxyghx/" target="_blank">
+                <img src="files/Icon/ig whit eline.png" alt="instagram" id="ig">
+            </a>
+            <a href="mailto:faiz.wahyusetiawan@gmail.com" target="_blank">
+                <img src="files/Icon/whit eline email.png" alt="email" id="email">
+            </a>
+        </div>
+
+        <h3 id="who">About Me</h3>
+        <div id="about">
+            <img src="files/Photo/faiz.png" alt="me" id="myphoto" loading="lazy">
+            <h3 id="aboutme">
+                <p id="explainabout">Saya <span class="bold">Faiz Wahyu Setiawan</span>, seorang <span
+                        class="bold">Kreator Visual</span> di bidang <span class="bold">Editing, Fotografi, dan
+                        Videografi</span>. Saya meyakini visual adalah <span class="bold">bahasa emosi</span> yang
+                    paling otentik, mampu membangun narasi mendalam dan menyampaikan pesan tanpa batas kata. Setiap
+                    proyek yang saya kerjakan adalah penerjemahan ide yang bertujuan menghasilkan karya yang bermakna
+                    da n benar-benar menyentuh audiens.
+
+                    <br><br>
+
+                    Kekuatan saya terletak pada integrasi skill ini dengan <span class="bold">Front-End
+                        Development</span>. Kombinasi unik ini memastikan saya tidak hanya menciptakan konten yang kaya
+                    makna, tetapi juga menjamin konten tersebut <span class="bold">tersaji sempurna di ranah
+                        digital</span>. Pengalaman coding saya fokus pada menghadirkan <span class="bold">user
+                        experience yang mulus, cepat, dan responsif</span>, sejalan dengan kualitas visual yang saya
+                    hasilkan.
+                </p>
+            </h3>
+        </div>
+
+        <h4 id="titlecompetence">Competence And Skills</h4>
+        <div id="main">
+            <p id="competence">
+            <div id="skills">
+                <p id="point"><span class="bold"> Photo Editing</span></a>
+                <p id="point"><span class="bold"> Video Editing</span></a>
+                <p id="point"><span class="bold"> Color Grading</span></a>
+                <p id="point"><span class="bold"> Photography</span></a>
+                <p id="point"><span class="bold"> Videography</span></a>
+                <p id="point"><span class="bold"> Front-End Developer</span></a>
+            </div>
+        </div>
+
+        <br><br>
+        <hr>
+
+        <div id="projectsstyle">
+            <h4 id="projects">Projects</h4>
+        </div>
+
+        <div id="proff">
+            <p id="projectsexplain">Koleksi frame ini adalah <span class="bold"> artefak</span> yang mengungkap
+                potensi
+                dan trauma, di mana mood
+                dan
+                tone diciptakan melalui "penggalian yang selesai," menghasilkan <span class="bold"> logika
+                    visual</span>
+                yang harus dirasakan untuk
+                meresapi atmosfernya, melampaui apa yang bisa dijelaskan oleh mata telanjang.</p>
+
+            <div id="videocontent">
+
+                <div class="video-wrapper">
+                    <p class="video-title"><span class="bold"> LOG</span></p>
+
+                    <iframe id="video-kiri" class="vimeo-sync-player"
+                        src="https://player.vimeo.com/video/1130094353?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479&amp;controls=0&amp;background=1"
+                        frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write;" title="LOG">
+                    </iframe>
+                </div>
+
+                <div class="video-wrapper">
+                    <p class="video-title"><span class="bold"> Color Grade</span></p>
+
+                    <iframe id="video-kanan" class="vimeo-sync-player"
+                        src="https://player.vimeo.com/video/1130094306?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479&amp;controls=0&amp;background=1"
+                        frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write;"
+                        title="COLOR GRADE"></iframe>
+                </div>
+            </div>
+            <div id="allpro">
+                <a href="html/projects.html" id="allprojects">View All Projects</a>
+            </div>
+        </div>
+
+        <hr>
+
+        <section id="contact">
+            <div class="form-container">
+
+                <h4 class="form-main-title">Email Me</h4>
+                <p class="form-subtitle">Feel free to Contact me by submitting the form below and I will get back to
+                    yous
+                    as soon as possible</p>
+
+                <form action="https://formspree.io/f/mblznvwg" method="POST" class="contact-form">
+
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" placeholder="Enter Your Name" required>
+
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="_replyto" placeholder="Enter Your Email" required>
+
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="6" placeholder="Enter Your Message" required></textarea>
+
+                    <button type="submit" class="submit-button">KIRIM PESAN</button>
+                </form>
+            </div>
+        </section>
+
+        <div id="wrapmed">
+            <a href="html/contact.html" id="mysos">Sosial Media</a>
+            <div id="contentmedsos">
+                <a href="https://github.com/FQzx" target="_blank">
+                    <img src="files/Icon/github.png" alt="github" id="github">
                 </a>
-                <a href="https://wa.me/6285752197411" target="_blank">
-                    <img src="icon/wa white line.png" alt="wa" id="wa">
+                <a href="https://www.instagram.com/poxyghx/" target="_blank">
+                    <img src="files/Icon/ig whit eline.png" alt="instagram" id="ig">
                 </a>
                 <a href="mailto:faiz.wahyusetiawan@gmail.com" target="_blank">
-                    <img src="icon/whit eline email.png" alt="email" id="email">
+                    <img src="files/Icon/whit eline email.png" alt="email" id="email">
                 </a>
             </div>
-
-            <div id="copyright">
-                <p>&copy; 2025 Faiz Wahyu Setiawan. Semua Hak Cipta Dilindungi Undang-Undang.</p>
-            </div>
-        </body>
+        </div>
     </div>
+    <div id="copyright">
+        <p><span class="bold"> &copy;2025 Faiz Wahyu Setiawan. Semua Hak Cipta Dilindungi Undang-Undang.</span>
+        </p>
+    </div>
+
+    <script src="https://player.vimeo.com/api/player.js"></script>
+    <script src="sync-video.js"></script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const iframes = document.querySelectorAll(".lazy-vimeo");
+            const observer = new IntersectionObserver(entries => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.src = entry.target.dataset.src;
+                        observer.unobserve(entry.target);
+                    }
+                });
+            }, { threshold: 0.25 });
+
+            iframes.forEach(iframe => observer.observe(iframe));
+        });
+    </script>
+    <script>
+        (function () {
+            function applyFade() {
+                try { window.scrollTo(0, 0); } catch (e) { }
+                document.body.classList.remove('page-loaded');
+                void document.body.offsetWidth;
+                setTimeout(() => document.body.classList.add('page-loaded'), 60);
+            }
+
+            document.addEventListener('DOMContentLoaded', applyFade);
+            window.addEventListener('pageshow', (evt) => {
+                if (evt.persisted) {
+                    applyFade();
+                } else {
+                    applyFade();
+                }
+            });
+        })();
+    </script>
+    <script>
+        const elements = document.querySelectorAll('.reveal-safe');
+        const showOnScroll = () => {
+            elements.forEach(el => {
+                const rect = el.getBoundingClientRect();
+                if (rect.top < window.innerHeight - 80) {
+                    el.classList.add('show');
+                }
+            });
+        };
+        window.addEventListener('scroll', showOnScroll);
+        window.addEventListener('load', showOnScroll);
+    </script>
+
+
+</body>
 
 </html>
